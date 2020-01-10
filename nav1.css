@@ -1,0 +1,11 @@
+.navbar .nav-link {
+  font-size: 14px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.navbar ul li.active a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
