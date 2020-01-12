@@ -1,0 +1,81 @@
+h4{
+	margin-left: 25px;
+	color: white;
+}
+
+/* --- Slideshow --- */
+
+.slideshow-container{
+	background: linear-gradient(#9b59b6,#34495e);
+ 	max-width: 100%;
+  	position: relative;
+  	margin: 40px;
+  	height: 400px;
+}
+
+
+.mySlides {
+	height: 100%;
+  display: none;
+}
+
+.caption-container h2{
+	color: white;
+}
+.caption-container{
+	letter-spacing: 0.8px;
+	color: white;
+	width: 40%;
+	display: inline-block;
+	margin-left: 100px;
+	padding: 20px 14px;
+}
+
+.image-container{
+	
+	padding: 44px 14px;
+	width: 40%;
+	display: inline-block;
+
+}
+
+.image-container img{
+	border: 0;
+	height: 300px;
+	width: 100%;
+}
+
+.prev,.next{
+	cursor: pointer;
+	position: absolute;
+	color: white!important;
+	top: 76%;
+	font-size: 30px;
+	width: auto;
+	padding: 16px;
+}
+
+.next{
+	right: 0;
+}
+
+
+/* ---- Footer ----- */
+.foot{
+	padding: 18px 18px;
+	background: linear-gradient(#9b59b6,#34495e);
+}
+
+.footer-content{
+	padding: 18px 38px;
+	font-size: 15px;
+	color: white;
+	list-style-image: url(../assets/bullet.png);
+}
+
+.copyrights{
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+
