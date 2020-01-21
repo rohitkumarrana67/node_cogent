@@ -8,7 +8,7 @@
 .topnav {
   overflow: hidden;
   background-color: #ab0054;
-  padding-left: 100px;
+  padding-left: 20px;
 }
 
 .topnav a {
@@ -177,7 +177,6 @@
   }
 }
 
-
 /* --- Slideshow --- */
 
 .slideshow-container {
@@ -216,7 +215,7 @@
   border: 0;
   height: 340px;
   width: 100%;
-  margin:0;
+  margin: 0;
 }
 
 .prev,
@@ -233,8 +232,6 @@
 .next {
   right: 0;
 }
-
-
 
 /* ---- Footer ----- */
 .foot {
@@ -259,109 +256,102 @@ h4 {
   color: white;
 }
 
-
 /* Responsiveness */
 
-
-@media (max-width: 1080px){
-  .caption-container{
+@media (max-width: 1080px) {
+  .caption-container {
     margin-left: 80px;
   }
 
-  .image-container img{
+  .image-container img {
     margin-top: -50px;
     height: 300px;
   }
 
-  h4{
+  h4 {
     font-size: 24px;
   }
-
 }
 
-@media (max-width: 996px){
-  .caption-container{
+@media (max-width: 996px) {
+  .caption-container {
     margin-left: 60px;
   }
 
-  .caption-container h2{
+  .caption-container h2 {
     font-size: 30px;
   }
 
-  .image-container img{
+  .image-container img {
     margin-top: -50px;
     height: 280px;
   }
 
-  h4{
-    font-size: 23px!important;
+  h4 {
+    font-size: 23px !important;
   }
 }
 
-@media (max-width: 896px){
-  
-  .caption-container h2{
+@media (max-width: 896px) {
+  .caption-container h2 {
     font-size: 28px;
   }
 
-  .image-container img{
+  .image-container img {
     margin-top: -140px;
     height: 250px;
   }
 
-  h4{
-    font-size: 22px!important;
+  h4 {
+    font-size: 22px !important;
   }
-
 }
 
-@media (max-width: 796px){
-  .caption-container{
+@media (max-width: 796px) {
+  .caption-container {
     margin-left: 60px;
   }
- 
-  .caption-container h2{
+
+  .caption-container h2 {
     font-size: 27px;
   }
 
-  .image-container img{
+  .image-container img {
     margin-top: -140px;
     height: 220px;
   }
 
-  h4{
-    font-size: 20px!important;
+  h4 {
+    font-size: 20px !important;
   }
-
 }
 
-@media (max-width: 596px){
-  .caption-container{
+@media (max-width: 596px) {
+  .caption-container {
     font-size: 14px;
     margin-left: 40px;
   }
-  
-  .caption-container h2{
+
+  .caption-container h2 {
     font-size: 25px;
   }
 
-  .image-container img{
+  .image-container img {
     margin-top: -160px;
     height: 200px;
   }
 
-  h4{
+  h4 {
     font-size: 10px;
   }
-
 }
 
-@media (max-width: 575px){
-  .footer-content{
+@media (max-width: 575px) {
+  .footer-content {
     list-style-position: inside;
   }
 
-  .row{
+  .row {
     text-align: center;
   }
 }
