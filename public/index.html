@@ -6,11 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <!--layout css-->
-    <link rel="stylesheet" type="text/css" href="layout.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/layout.css" />
     <!--fontawesome icon CDN-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--ANIMATE.CSS CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
     />
     <!--ion icon CDN-->
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
@@ -43,15 +48,15 @@
   <body>
     <!-- Navigation Bar -->
     <div class="topnav" id="myTopnav">
-      <a href="#home" class="active1">Home</a>
-      <a href="#news">About Us</a>
-      <a href="./outTeam.html">Our Team</a>
+      <a href="./index.html" class="active1">Home</a>
+      <a href="./templates/about.html">About Us</a>
+      <a href="./templates/outTeam.html">Our Team</a>
       <a href="#contact">Career</a>
       <a href="#gallary">Gallary</a>
-      <a href="#about">Clientele</a>
-      <a href="#news">Testimonials</a>
+      <a href="./templates/clientele.html">Clientele</a>
+      <a href="./templates/testimonials.html">Testimonials</a>
       <a href="#contact">Enquiry</a>
-      <a href="#about">Contact Us</a>
+      <a href="./templates/contact.html">Contact Us</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
@@ -77,7 +82,7 @@
         <div class="dropdown1-content">
           <table>
             <tr>
-              <td><a href="templates/universities.html">Universities</a></td>
+              <td><a href="./templates/universities.html">Universities</a></td>
               <td><a href="#">Distribution</a></td>
             </tr>
             <tr>
@@ -160,7 +165,11 @@
               <td><a href="#">Network Solutions</a></td>
             </tr>
             <tr>
-              <td><a href="templates/eLearning.html">eLearning/Content Services</a></td>
+              <td>
+                <a href="./templates/eLearning.html"
+                  >eLearning/Content Services</a
+                >
+              </td>
             </tr>
           </table>
         </div>
@@ -175,7 +184,9 @@
           <table>
             <tr>
               <td>
-                <a href="templates/business_solutions.html">Business Solutions</a>
+                <a href="./templates/business_solutions.html"
+                  >Business Solutions</a
+                >
               </td>
             </tr>
             <tr>
@@ -183,7 +194,9 @@
             </tr>
             <tr>
               <td>
-                <a href="templates/mobile_application.html">Mobile Applications</a>
+                <a href="./templates/mobile_application.html"
+                  >Mobile Applications</a
+                >
               </td>
             </tr>
             <tr>
@@ -201,20 +214,22 @@
     <div class="nav2_second container-fluid">
       <div class="row">
         <div class="col-xl-2 col-md-12 bdr ">
-          <img src="http://www.cogenttechnologies.in/assets/images/logo.png" /
-          height="33px">
+          <img
+            src="http://www.cogenttechnologies.in/assets/images/logo.png"
+            height="33px"
+          />
         </div>
         <div class="col-xl-2 col-md-4 bdr ">
-          <a href="templates/main_solutions.html">SOLUTIONS</a>
+          <a href="./templates/main_solutions.html">SOLUTIONS</a>
         </div>
         <div class="col-xl-2 col-md-4 bdr">
-          <a href="templates/main_services.html">SERVICES</a>
+          <a href="./templates/main_services.html">SERVICES</a>
         </div>
         <div class="col-xl-2 col-md-4 bdr ">
-          <a href="templates/main_product.html">PRODUCTS</a>
+          <a href="./templates/main_product.html">PRODUCTS</a>
         </div>
         <div class="col-xl-2 col-md-6 bdr ">
-          <a href="templates/main_industries.html">INDUSTRIES</a>
+          <a href="./templates/main_industries.html">INDUSTRIES</a>
         </div>
         <div class="col-xl-2 col-md-6 bdr"><a href="#">VERIFICATIONS</a></div>
       </div>
@@ -231,7 +246,7 @@
           </p>
         </div>
         <div class="image-container">
-          <img src="assets/itservices.png" />
+          <img src="./assets/itservices.png" />
         </div>
       </div>
 
@@ -245,7 +260,7 @@
           </p>
         </div>
         <div class="image-container">
-          <img src="assets/developers.png" />
+          <img src="./assets/developers.png" />
         </div>
       </div>
 
@@ -258,13 +273,45 @@
           </p>
         </div>
         <div class="image-container">
-          <img src="assets/business-services.png" />
+          <img src="./assets/business-services.png" />
         </div>
       </div>
 
       <!-- Next and previous buttons -->
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!--about us-->
+    <div class=" row  about">
+      <div id="about-img" class=" col-md-12 col-lg-6 " style="margin: auto;">
+        <img src="./assets/about.jpg" alt="" class="img-fluid" />
+      </div>
+      <div id="about-content"
+        class="  col-md-12 col-lg-6 about-content "
+        style="text-align: center; margin: auto; font-family: 'Gabriola',monospace; color: white; "
+      >
+        <h1>ABOUT US</h1>
+        <p >
+          We are willfully independent and approach automation requirements in a
+          unique manner, honestly, whole heartedly and most effectively,
+          challenging every status quo, asking why things can’t be better.</p><p>We
+          believe anything can be made better being innovative. We are Cogents.
+          Cogent Technologies is a unique preposition and is innovative by
+          inception, creative with acute sense of independence. Lead by an
+          exceptionally qualified team with years of experience in the Domain
+          and supported by large organizations with multinational presence, we
+          offer stability, long term relationship and high esteem assurance on
+          quality solutions and services.</p><p> We are investing primarily on the
+          future of the nation, the youth, by providing cost effective solutions
+          to improve the education system, the core basics of holding together
+          and integrating the education system that is scattered, uncoordinated
+          and primitive in information sharing. Partnering with the World
+          leaders in the Domain, we stand apart as a one stop solution provider,
+          continuously upgrading associations and solutions where innovations,
+          productivity and the welfare of the nation take the front seat.</p>
+        </p>
+      </div>
     </div>
 
     <div class="body-content" style="height: 300px"></div>
@@ -319,7 +366,19 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="../js/topnav.js"></script>
-    <script type="text/javascript" src="../js/slide.js"></script>
+    <script type="text/javascript" src="../public/js/topnav.js"></script>
+    <script type="text/javascript" src="../public/js/slide.js"></script>
+      
+    <script>$(document).ready(function() {
+      $(window).scroll(function() {
+        var positionTop = $(document).scrollTop();
+        console.log(positionTop);
+        if(positionTop>300 &&positionTop<622)
+        {
+             $('#about-img').addClass('animated flipInY');
+             $('#about-content').addClass('animated slideInRight');
+        }
+      });
+    });</script>
   </body>
 </html>

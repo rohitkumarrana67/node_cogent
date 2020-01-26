@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!--layout css-->
+    <link rel="stylesheet" type="text/css" href="../styles/layout.css" />
+    <!--fontawesome icon CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--ion icon CDN-->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <!--bootstrap CDN-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!--  Jquery,Bootstrap.js, popper.js-->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html" class="active1">Home</a>
+      <a href="./about.html">About Us</a>
+      <a href="./outTeam.html">Our Team</a>
+      <a href="#contact">Career</a>
+      <a href="#gallary">Gallary</a>
+      <a href="clientele.html">Clientele</a>
+      <a href="./testimonials.html">Testimonials</a>
+      <a href="#contact">Enquiry</a>
+      <a href="./contact.html">Contact Us</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!--NAVBAR2-->
+    <div class="nav2">
+      <img
+        src="http://www.cogenttechnologies.in/assets/images/logo.png"
+        height="70px"
+        style="position: relative; left:50px;"
+      />
+      <div class="dropdown1">
+        <a style="color: white; text-decoration: none;" href=""
+          >VERIFICATIONS</a
+        >
+      </div>
+
+      <div class="dropdown1">
+        <button class="dropbtn1">
+          INDUSTRIES
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown1-content">
+          <table>
+            <tr>
+              <td><a href="./universities.html">Universities</a></td>
+              <td><a href="#">Distribution</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">State Education Board</a></td>
+              <td><a href="#">Retail</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Education Institutes</a></td>
+              <td><a href="#">Public Sector</a></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <a href="#">Enginering, Constructions & Operations</a>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">Professional Services</a></td>
+              <td><a href="#">Healthcare</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Transport & Logistics</a></td>
+              <td><a href="#">Finance</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">HR Managers</a></td>
+              <td><a href="#">Hospitality</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="dropdown1">
+        <button class="dropbtn1">
+          PRODUCTS
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown1-content">
+          <table>
+            <tr>
+              <td><a href="#">Cogent Vita</a></td>
+              <td><a href="#">Cogent Duco Drive</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Cogent Xenia</a></td>
+              <td><a href="#">Cogent Medical Kit</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Cogent Veritas</a></td>
+              <td><a href="#">Cogent Industria</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Cogent Tecton</a></td>
+              <td><a href="#">Cogent Activo</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="dropdown1">
+        <button class="dropbtn1">
+          SERVICES
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown1-content">
+          <table>
+            <tr>
+              <td><a href="#">CCTV Surveillance Solutions</a></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#">Biometric Solutions</a>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">Computer Sales And Services</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Computer Courses</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Network Solutions</a></td>
+            </tr>
+            <tr>
+              <td><a href="./eLearning.html">eLearning/Content Services</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="dropdown1">
+        <button class="dropbtn1">
+          SOLUTIONS
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown1-content">
+          <table>
+            <tr>
+              <td>
+                <a href="./business_solutions.html">Business Solutions</a>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">Cloud Based Applications</a></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="./mobile_application.html">Mobile Applications</a>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">Smart Class Room Solutions</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Smart Class Contents</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!--navbar2 second-->
+    <div class="nav2_second container-fluid">
+      <div class="row">
+        <div class="col-xl-2 col-md-12 bdr ">
+          <img src="http://www.cogenttechnologies.in/assets/images/logo.png" /
+          height="33px">
+        </div>
+        <div class="col-xl-2 col-md-4 bdr ">
+          <a href="./main_solutions.html">SOLUTIONS</a>
+        </div>
+        <div class="col-xl-2 col-md-4 bdr">
+          <a href="./main_services.html">SERVICES</a>
+        </div>
+        <div class="col-xl-2 col-md-4 bdr ">
+          <a href="./main_product.html">PRODUCTS</a>
+        </div>
+        <div class="col-xl-2 col-md-6 bdr ">
+          <a href="./main_industries.html">INDUSTRIES</a>
+        </div>
+        <div class="col-xl-2 col-md-6 bdr"><a href="#">VERIFICATIONS</a></div>
+      </div>
+    </div>
+    <!--content-->
+    <div style="background-color: blue; margin: 10px auto;">
+      <h1 style="text-align: center; color: white; padding: 5px; ">
+        Clientele
+      </h1>
+    </div>
+
+    <div style="margin: 20px auto; padding: 10px 70px;">
+      <h3 style="color: crimson;">OUR CLIENTELE</h3>
+      <p>
+        Cogent Technologies is providing dynamic way of software solutions, and
+        specializes in the development of high quality products and cost
+        effective IT solutions in education domain. We are a market and
+        technology driven company. Our core competence is software technology.
+        We offer unmatched service to our clients. Our team of professionals is
+        dedicated to provide information technology solutions adapted to global
+        clients.
+      </p>
+      <p>
+        Cogent Technologies is your ideal partner for the development of
+        innovative IT & ICT solutions. The mission of Cogent Technologies. is to
+        utilize cutting edge technology to offer reliable and efficient business
+        application solutions, and consulting for the communications, corporate,
+        financial and securities industry.
+      </p>
+      <p>
+        We are very focused on our core competencies. We strive to be the best
+        at everything we do. Our primary goal is to provide your company with
+        the software tools needed to address real world business issues and
+        opportunities. This focus has allowed us to become a true "master of our
+        trade". Since the systems and business requirements are constantly
+        changing due to technology and growth, we are committed to a continuous
+        research and development in order to provide significant enhancements as
+        a part of our standard package, to meet our clients growing needs.
+      </p>
+
+      <h4 style="color: crimson;">1. Portals:</h4>
+      <p>
+        www.sbtej.org <br />
+        www.campusnet.sbtej.org<br />
+        www.gwpranchi.com <br />www.ucet.co.in<br />
+        www.naipunnya.ac.in <br />www.kittiptur.ac.in<br />
+        www.ibmrbschool.org<br />
+        www.jssateb.ac.in<br />
+        www.yagchi.ac.in <br />www.iiitb.ac.in<br />
+        www.nls.ac.in <br />www.smarkspublicschool.com
+        <br />www.uasbangalore.edu.in <br />www.manipal.edu
+        <br />www.ifimbschool.com<br />
+        www.dtekarnataka.ac.in<br />
+        www.ibmrcampusnet.com<br />
+        www.naipunnya.com <br />www.kitcampusnet.com/library<br />
+        www.lpu.in
+      </p>
+
+      <h4 style="color: crimson;">2. Central Government:</h4>
+
+      <p>
+        Rubber Board, Ministry of Commerce, Govt. of India - ERP Processing<br />
+        N.C.C.F, Ministry of Commerce, Govt. of India – ERP Education<br />
+        N.L.S.U.I – ERP Education<br />
+        IIIT – ERP Education<br />
+        IFIM – ERP Education
+      </p>
+
+      <h4 style="color: crimson;">3. State Government:</h4>
+      <p>
+        The KCRMPS Ltd., Kerala – ERP Manufacturing<br />
+        Meenachil TSBR Factory, Kerala – ERP Manufacturing<br />
+        RPS, Kerala – ERP Distribution<br />
+        University of Agriculture Sciences (UAS), Karnataka – ERP Education
+        (SSDR)<br />
+        Kuvempu University, Karnataka - ERP Education (SSDR)<br />
+        Mysore University, Karnataka - ERP Education (SSDR)<br />
+        Bidar University, Karnataka - ERP Education (SSDR)<br />
+        Mangalore University, Karnataka - ERP Education (SSDR)<br />
+        C.E.T, Karnataka ERP Education<br />
+        K.P.S.C, Karnataka - ERP Education – Online Application<br />
+        Directorate of Technical Education, Karnataka – ERP Education (SSDR)<br />
+        Punjab Technical Education, Punjab – ERP Education (SSDR)<br />
+        Department of Science & Technology, Jharkhand - ERP Education<br />
+        State Board of Technical Education, Jharkhand - ERP Education<br />
+        Vinoba Bhave University, Jharkhand - ERP Education<br />
+        Veterinary University, Bidar, Karnataka – ERP Education (SSDR)<br />
+        Tumkur University, Tumkur, Karnataka – ERP Education (SSDR)
+      </p>
+      <h4 style="color: crimson;">4. PRIVATE CLIENTS (INDIA)</h4>
+      Manipal University – ERP Education (SSDR) <br />IBMR Group of Institutions
+      – ERP Education Christ University, Karnataka – ERP<br />
+      Education Bharati Vidyapeeth, Pune, Maharashtra – ERP Education (SSDR)<br />
+      Lovely Professional University, Punjab – ERP Education (SSDR)
+      <br />Ohio-Christ Institute of Management – ERP Education<br />
+      Maharaja Institute of Technology – ERP Education<br />
+      Kalpatharu Institute of Technology – ERP Education<br />
+      Naipunya Institute of Management and Information Technology – ERP<br />
+      Education Al Ameen Public School, Kerala – ERP<br />
+      Education The Village International School, Kerala – ERP<br />
+      Education M.K.N.M Higher Secondary School, Kerala – ERP <br />Education
+      Holy Family International School, Kerala – ERP Education<br />
+      Little Angels Anglo-Indian School, Tamil Nadu – ERP Education<br />
+      Mulamootil Central School, Kerala – ERP<br />
+      Education P.M.C Hospital, Kerala – ERP <br />Healthcare St. George
+      Constructions, Kerala – ERP <br />Construction St. George Motors, Kerala –
+      ERP<br />
+      Distribution St. George Agencies, Kerala – ERP<br />
+      Distribution Malankara Syrian Church, Kerala – Web Portal Kalleli Park
+      Inn, Kerala – ERP Hospitality <br />Hotel Navaratna International, Kerala
+      – ERP Hospitality<br />
+      Hotel Ceyon, Kerala – ERP Hospitality<br />
+      Vikas Chits & Finance, Kerala – Chitware ABC Chits, Kerala – Chitware
+      Excel Public School, Karnataka – ERP Education<br />
+      Global Institute of Management & Technology, Kerala - ERP Education
+      <br />Agro Bio-Tech, Kerala – ERP <br />Manufacturing CSK Fuels, Kerala –
+      ERP<br />
+      Distribution SIFCO Agencies, Kerala – ERP <br />Distribution CHAMS, Kerala
+      – Web Portal Mathew & Sons Chits and Funds, Kerala – Chitware Pushpagiri
+      Medical College, Kerala – ERP Education <br />Vallabhassery Homeopathy
+      Hospital, Kerala – ERP Healthcare<br />
+      Athreya Ayurvedic Hospital, Kerala – ERP Healthcare<br />
+      Aswathi Bhawan Ayurvedic Hospital – ERP Healthcare<br />
+      Assisi Multi-Speciality Hospital, Kerala – ERP Healthcare<br />
+      St. Thomas Hospital, Kerala – ERP Healthcare<br />
+      Mulamootil Eye Hospital, Kerala – ERP Healthcare<br />
+      Buhler AG, Karnataka – ERP Manufacturing<br />
+      Sortex Pvt. Ltd., Karnataka – ERP Manufacturing<br />
+      Agro Bio-Tech, Kottayam – ERP Distribution<br />
+      PowerKing Group, Ettumanoor – ERP Distribution<br />
+      Palakkatt Traders, Ettumanoor – ERP Distribution<br />
+      Bobby Rubbers, Thellakom – ERP Distribution<br />
+      Sortex Limited, Bangalore – ERP Distribution <br />School of Management
+      Studies, M G University, Kottayam – ERP Education<br />
+      School of Medical Education, M G University, Kottayam – ERP Education
+      <br />St. Francis De Sales Public School and Junior College, Etumanoor –
+      ERP Education
+      <h4 style="color: crimson;">5. JHARDKHAND CLIENTS ( ERP Education )</h4>
+      Department of Science and Technology,<br />
+      Govt. of Jharkhand State Board of Technical Education, Under DST, Govt. of
+      Jharkhand<br />
+      Jharkhand State Livelihood Promotion Society, Under Dept. of RD, Govt. of
+      Jharkhand<br />
+      Sri Krishna Institute of Public Administration, Govt. of Jharkhand<br />
+      Vinoba Bhave University, Hazaribag <br />B.I.T Sindri, Under Dept. of
+      Science & Technology, Govt. of Jharkhand <br />University College of
+      Engineering and Technology, VBU, Hazaribag Govt.<br />
+      Women’s Polytechnic, Ranchi<br />
+      Govt. Polytechnic, Nirsa, Dhanbad <br />Govt. Polytechnic, Jainamore,
+      khutri, Bokaro,<br />
+      Govt. Polytechnic, Adityapur, Jamshedpur<br />
+      Govt. Women’s Polytechnic, Gamharia, Jamshedpur<br />
+      Govt. Polytechnic, Koderma<br />
+      Govt. Women’s Polytechnic, Bokaro<br />
+      Govt. Polytechnic, Ranchi<br />
+      Govt. Polytechnic (Bhaga), Dhanbad<br />
+      Govt. Polytechnic, Kharsawan, Jamshedpur <br />Govt. Polytechnic, Dumka
+      and <br />Govt. Polytechnic, Latehar
+      <h4 style="color: crimson;">6. OVERSEAS CLIENTS</h4>
+      INTER-SAT International Trading LLC Ruwi, Muscat, OMAN – ERP Finance
+      <br />Middle East Poly Clinic, Ruwi, Muscat, OMAN – ERP Healthcare<br />
+      Alert IT Solutions, IL, USA – Web Portal<br />
+      Med Innovations, North Central Jersey, USA – Web Portal <br />Micronet
+      Technologies LLC, Bur Dubai, UAE – Customised Project Management
+      Software<br />
+      Multi Flex Middle East LLC, Sharjah, UAE – ERP Finance <br />MAARK
+      Traders, Dammam, Saudi Arabia – ERP Distribution<br />
+      Oxygen LLC, Dubai, UAE – ERP Operations KGA Group, Caritas – ERP
+      Distribution <br />Machinery Engineering and Trading Establishment,
+      Dammam, Saudi Arabia – ERP Manufacturing <br />Natural Flower House
+      Dammam, Saudi Arabia – ERP Distribution <br />All-Al-Qathani Rental
+      Equipments- Jubail Road, Saudi Arabia – ERP Operations <br />Al-Dossary
+      Trading Establishment- Al-Khobar, Saudi Arabia – ERP Distribution<br />
+      MERA Paints – Al-Khobar, Saudi Arabia – ERP Distribution<br />
+      SIGAS (Saudi Industrial Gas Company) – ERP Distribution<br />
+      MGA Traders, Dammam, Saudi Arabia – ERP Distribution <br />Sapphire
+      Traders, Dammam, Saudi Arabia – ERP Distribution<br />
+      Al-Majdoule logistics & Distribution, Dammam, Saudi Arabia- ERP
+      Distribution<br />
+      HABA Traders (Ahmed Baagli Group), Dammam, Saudi Arabia – ERP Distribution
+      <br />Al-Dukair Hospital, Dammam, Saudi Arabia – ERP Healthcare<br />
+      MITS, Dammam, Saudi Arabia, ERP Distribution <br />Arab Open University,
+      Sultanate of Oman – ERP Education<br />
+      Ministry of Education, Sultanate of Oman – ERP Education <br />Suhar
+      University, Sultanate of Oman – ERP Education<br />
+      Buhler A G, Switzerland – ERP Distribution<br />
+      WMC, Switzerland – ERP Distribution<br /><br />
+      ...and more to come
+    </div>
+
+    <!--footer-->
+    <div class="foot container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <h4>About Cogent</h4>
+          <ul class="footer-content">
+            <li>About Cogent</li>
+            <li>Company Profile</li>
+            <li>Company Presentation</li>
+            <li>Vision And Mission</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h4>APPLICATIONS</h4>
+          <ul class="footer-content">
+            <li>Cloud Based Applications</li>
+            <li>Mobile Applications</li>
+            <li>Client Server Applications</li>
+            <li>Business Solutions</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h4>SOLUTIONS</h4>
+          <ul class="footer-content">
+            <li>IT Consultancy</li>
+            <li>Legacy Migration</li>
+            <li>System Integration</li>
+            <li>Networking Services</li>
+            <li>eLearning Services</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h4>SUPPORT & HELP</h4>
+          <ul class="footer-content">
+            <li>Enquiry</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center copyrights">
+        <small>@2016 All Rights Reserved</small>
+        <div class="icons">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-linkedin"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-googleplus"></ion-icon>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../js/topnav.js"></script>
+  </body>
+</html>
