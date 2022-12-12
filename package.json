@@ -17,7 +17,7 @@
   "homepage": "https://github.com/rohitkumarrana67/freelancing_project1#readme",
   "description": "",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemailer": "^6.4.3"
   }
 }
